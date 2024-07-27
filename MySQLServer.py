@@ -17,6 +17,7 @@ def create_database():
             print("Database 'alx_book_store' created successfully!")
             
     except Error as e:
+        # Handle MySQL specific errors
         print(f"Error: {e}")
     
     finally:
